@@ -1,5 +1,5 @@
 # Subcenter-ArcFace-Pytorch
-Train and filter data using Subcenter ArcFace model in Pytorch
+Train and filter data using Subcenter ArcFace model in Pytorch lightning
 
 Paper: [arxiv](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123560715.pdf)
 
