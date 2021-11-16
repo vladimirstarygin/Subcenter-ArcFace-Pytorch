@@ -10,7 +10,7 @@ params = {
 
     #model config
     'backbone': 'resnet50',
-    'embedding_dim': 128,
+    'embedding_dim': 2048,
     #autoset in get_loader training_script
     'num_classes': -1,
 
