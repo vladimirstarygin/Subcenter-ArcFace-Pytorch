@@ -9,7 +9,7 @@ class Filtermodel(nn.Module):
 
     def __init__(self,
                  n_classes,
-                 embedding_dim = 128,
+                 embedding_dim = 2048,
                  backbone='resnet50',
                  pseudolabels=False):
 
@@ -32,7 +32,6 @@ class Filtermodel(nn.Module):
             net.layer2,
             net.layer3,
             net.layer4,
-            nn.Conv2d(in_channels = 2048, out_channels=embedding_dim, kernel_size=1, stride=1, bias=False),
             net.avgpool
         )
 
